@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :phoenix_playground, PhoenixPlayground.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "qwerty",
   hostname: "localhost",
   database: "phoenix_playground_dev",
   stacktrace: true,
