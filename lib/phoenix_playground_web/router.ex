@@ -18,6 +18,7 @@ defmodule PhoenixPlaygroundWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    live "/home", HomeLive
   end
 
   # Other scopes may use custom stacks.
